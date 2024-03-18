@@ -1,0 +1,57 @@
+{
+    "name": "Medoy UBot",
+    "description": "Medoy-Ubot Dibuat Untuk String Telethon Dan Pyrogram Untuk ID 5 Pasti Aman.",
+    "stack": "heroku-22",
+    "keywords": [
+        "Telethon",
+        "Pyrogram"
+    ],
+    "repository": "https://github.com/Marszyygreat/Medoy-Ubot",
+    "success_url": "https://t.me/Siid0yyy",
+    "env": {
+        "API_ID": {
+            "description": "Ambil di my.telegram.org",
+            "required": true
+        },
+        "API_HASH": {
+            "description": "Ambil di my.telegram.org",
+            "required": true
+        },
+        "SESSION": {
+            "description": "Silakan isi Telethon Atau Pyrogram V2",
+            "value": ""
+        },
+        "HEROKU_API": {
+            "description": "Isi  Jangan Dikosongin.",
+            "required": true
+        },
+        "HEROKU_APP_NAME": {
+            "description": "Isi  Jangan Dikosongin",
+            "value": "",
+            "required": true
+        }
+    },
+  "addons": [
+    {
+      "plan": "rediscloud",
+      "options": {
+        "maxmemory-policy": "allkeys-lru",
+        "maxmemory-redis": "2GB"
+      }
+    }
+  ],
+  "buildpacks": [
+    {
+      "url": "heroku/python"
+    },
+    {
+      "url": "https://github.com/interconnectit/heroku-buildpack-ffmpeg"
+    }
+  ],
+    "formation": {
+        "worker": {
+            "quantity": 1,
+            "size": "basic"
+        }
+    }
+}
