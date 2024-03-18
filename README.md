@@ -65,7 +65,7 @@ Gunakan bot ini dengan risiko Anda sendiri, dan gunakan userbot ini dengan bijak
 
 </details>
 
-<p><a href="https://dashboard.heroku.com/new?template=https://github.com/Marszyygreat/Medoy-Ubot"><img src="https://www.herokucdn.com/deploy/button.svg/badge/BUAT DI-HEROKU-aqua?src="https://telegra.ph//file/cd9e19d64d6aa7cd695a9.jpg" /></a></p>
+<p><a href="https://dashboard.heroku.com/new?template=https://github.com/Marszyygreat/Medoy-Ubot"><img src="https://www.herokucdn.com/deploy/button.svg/badge/BUAT DI-HEROKU-aqua?style=plastic&logo=heroku&logoColor=gold"width="300" /></a></p>
 
 </details>
 
