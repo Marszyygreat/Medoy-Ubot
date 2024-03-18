@@ -15,6 +15,10 @@ Gunakan bot ini dengan risiko Anda sendiri.
 Gunakan userbot ini dengan bijak.
 Ketika anda sudah memasang userbot ini, berarti anda sudah siap dengan resikonya.
 ```
+# Tutorial 
+- Tutorial to get Redis URL and password - [here.](./resources/extras/redistut.md)
+---
+
 <details>
 <summary><b>🔗 Deploy di VPS</b></summary>
 <br>
